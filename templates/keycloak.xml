@@ -6,12 +6,12 @@
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/89502-support-a75g-repo/</Support>
+  <Support/>
   <Project>https://www.keycloak.org/</Project>
   <Overview>Open Source Identity and Access Management.</Overview>
   <Category>Security: Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/A75G/docker-templates/master/templates/keycloak.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/jozefKruszynski/docker-templates-a75g/master/templates/keycloak.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/A75G/docker-templates/master/templates/icons/keycloak.png</Icon>
   <Description>Open Source Identity and Access Management.</Description>
   <Config Name="Port" Target="8080" Default="8080" Mode="tcp" Description="Port" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
